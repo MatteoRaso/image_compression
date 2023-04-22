@@ -1,5 +1,5 @@
 import sys
-from imageio.v2 import imread, imwrite
+from imageio.v3 import imread, imwrite
 
 def image_compression(filename):
     """
