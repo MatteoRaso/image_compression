@@ -15,3 +15,7 @@ To compress an image called `foo.png`, type in
 ```
 
 This will output an image called `compressed_foo.png`.
+
+# License
+
+This program is licensed under the Apache 2.0 license.
