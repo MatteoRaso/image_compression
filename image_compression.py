@@ -1,10 +1,9 @@
-import numpy as np
 import sys
 from imageio.v2 import imread, imwrite
 
 def image_compression(filename):
     """
-    A lossy compression algorithm for images.
+    A lossless compression algorithm for images.
 
     Parameters
     ----------
@@ -16,8 +15,7 @@ def image_compression(filename):
     """
 
     image = imread(filename)
-    compressed_image = image.astype(np.uint8)
-    imwrite("compressed_" + filename, compressed_image)
+    imwrite("compressed_" + filename, image)
 
 if sys.argv[1] is not None:
     image_compression(sys.argv[1])
