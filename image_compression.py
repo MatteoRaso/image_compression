@@ -17,7 +17,7 @@ from imageio.v3 import imread, imwrite
 
 def image_compression(filename):
     """
-    A lossless compression algorithm for images.
+    A lossy compression algorithm for images.
 
     Parameters
     ----------
